@@ -3,7 +3,7 @@ import googleapiclient.discovery
 st.set_page_config(
     page_title="YouTube Data Harvesting and Warehousing "
 )
-
+st.markdown("<h1>YouTube Data Harvesting and Warehousing</h1>", unsafe_allow_html=True)
 st.title("Youtube channel Info")
 st.sidebar.success("Channel Informations")
 channel_link = st.text_input("Enter a Youtube channel link")
